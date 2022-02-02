@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4,2;
+const nuevoModulo = 21 % 5 === 4.2;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -78,8 +78,8 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90)
-  return true 
+  if (num < 90) {
+  return true; 
 } else {
   return false }
 }
@@ -178,7 +178,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   var combinado = nombre + " " + apellido;
-  returm combinado;
+  return combinado;
 }
 
 function obtenerSaludo(nombre) {
