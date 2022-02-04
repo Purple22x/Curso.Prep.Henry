@@ -120,7 +120,7 @@ function fizzBuzz(numero) {
       return "buzz"; }
       else if ((numero % 3 && 5 == 0) ) {
       return "fizzbuzz"; }
-      { return "numero" }
+      { return numero }
 }
 
 function operadoresLogicos(num1, num2, num3) {
