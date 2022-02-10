@@ -9,6 +9,8 @@ function mayuscula(nombre) {
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
+  cb()
+  
 }
 
 function operacionMatematica(n1, n2, cb) {
@@ -22,6 +24,7 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+
 }
 
 function forEach(array, cb) {
