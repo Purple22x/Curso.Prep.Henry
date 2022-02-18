@@ -29,6 +29,7 @@ function numberOfCharacters(string) {
      }
      else { 
        objeto [string [i]] = 1}
+       return objeto
    }
 }
 
